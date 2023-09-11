@@ -5,6 +5,7 @@
  */
 package ejercicios1;
 
+import Interfaz.Calculadora;
 /**
  *
  * @author fedem
@@ -15,7 +16,9 @@ public class Ejercicios1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Calculadora calculadora = new Calculadora();
+        calculadora.setVisible(true);
+        calculadora.setLocationRelativeTo(null);
     }
     
 }
